@@ -1,0 +1,191 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36">
+  <diagram name="Página-1" id="8zNSO69XH2N_amqXZzP6">
+    <mxGraphModel dx="3166" dy="3517" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="270" x="340" y="-687.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_partition_4.svg;" value="" vertex="1">
+          <mxGeometry height="57" width="77.03" x="-32.519999999999996" y="-889" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-2" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" value="" vertex="1">
+          <mxGeometry height="130" width="140" x="-60" y="-679" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-3" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="28.000000000000004" x="389" y="-590.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-6" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="47" width="26.32" x="475" y="-587.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="server https" vertex="1">
+          <mxGeometry height="30" width="60" x="373" y="-530.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server DNS" vertex="1">
+          <mxGeometry height="30" width="60" x="459" y="-530.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-11" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-2" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="7x14-aXLsB1EBDYi0nr2-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-380" y="-786" as="sourcePoint" />
+            <mxPoint x="-140" y="-766" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DMZ Externa" vertex="1">
+          <mxGeometry height="30" width="100" x="389" y="-656" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="197.5" width="232" x="-485" y="-675" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-17" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="47" width="26.32" x="-398" y="-606" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server LDAP" vertex="1">
+          <mxGeometry height="30" width="60" x="-414" y="-549" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-20" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="28.000000000000004" x="-318" y="-609" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server DHCP" vertex="1">
+          <mxGeometry height="30" width="60" x="-334" y="-549" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DMZ Interna" vertex="1">
+          <mxGeometry height="30" width="100" x="-398" y="-656" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-24" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-15" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="7x14-aXLsB1EBDYi0nr2-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-160" y="-576" as="sourcePoint" />
+            <mxPoint x="-110" y="-626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="210" width="280" x="-120" y="-376" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="zona Inside" vertex="1">
+          <mxGeometry height="30" width="90" x="-25" y="-356" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-27" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="-100" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-28" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="-20" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-29" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="65" y="-286" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-30" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-2" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7x14-aXLsB1EBDYi0nr2-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="-686" as="sourcePoint" />
+            <mxPoint x="110" y="-816" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-31" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Internet" vertex="1">
+          <mxGeometry height="80" width="120" x="-77" y="-1205" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;FIREWALL&lt;br&gt;(IPS/IDS)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="-50" y="-636" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Router Cisco virtual&lt;/font&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="-172.52" y="-923" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-34" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-25" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="7x14-aXLsB1EBDYi0nr2-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-30" y="-476" as="sourcePoint" />
+            <mxPoint x="20" y="-526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-35" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="47" width="26.32" x="-450" y="-606" as="geometry" />
+        </mxCell>
+        <mxCell id="7x14-aXLsB1EBDYi0nr2-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server monitoring -NAGIOS" vertex="1">
+          <mxGeometry height="30" width="60" x="-466.84000000000003" y="-545" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DMZ&amp;nbsp; Externa&lt;br&gt;192.168.3.32/27&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="14" width="90" x="180" y="-554.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DMZ Interna&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;192.168.3.0/27&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="90" x="-170" y="-626" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;Zona interna&lt;br&gt;192.168.2.0/24&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="-140" y="-496" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Zona externa&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;10.10.1.0/29&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="211.48" x="-21.48" y="-729" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Internet 1.1.1.0/24&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="56.74000000000001" y="-1182" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="94" width="80" x="-34" y="-1360" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cliente&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="23" width="90" x="-42" y="-1350" as="geometry" />
+        </mxCell>
+        <mxCell id="QMujyzllP4tAf6WQ9UCL-12" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="30" width="50" x="-19" y="-1332" as="geometry" />
+        </mxCell>
+        <mxCell id="zxU5-DerB0RjlWGhZndL-3" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;" value="" vertex="1">
+          <mxGeometry height="50" width="42.5" x="552" y="-587.5" as="geometry" />
+        </mxCell>
+        <mxCell id="zxU5-DerB0RjlWGhZndL-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Proxy" vertex="1">
+          <mxGeometry height="30" width="60" x="543.5" y="-530.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Du002aDOT_tYDoqqEjCu-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_partition_4.svg;" value="" vertex="1">
+          <mxGeometry height="57" width="77.03" x="641" y="-1194.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Du002aDOT_tYDoqqEjCu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Router Jazztel ISP (internet service provider)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="610" y="-1134" as="geometry" />
+        </mxCell>
+        <mxCell id="Du002aDOT_tYDoqqEjCu-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;RED GESTION&lt;br&gt;192.168.1.0/24&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="211.48" x="489" y="-1260" as="geometry" />
+        </mxCell>
+        <mxCell id="Wvibj96cSCfsGM2uSBOo-1" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-1" style="endArrow=none;html=1;rounded=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" target="01Bo7GbV_EiUJIykcZQx-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="424" y="-893" />
+            </Array>
+            <mxPoint x="6" y="-887" as="sourcePoint" />
+            <mxPoint x="-83" y="-1034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Cliente externo remoto&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&amp;nbsp;1.1.1.2/24&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="56.74000000000001" y="-1341" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-2" edge="1" parent="1" source="01Bo7GbV_EiUJIykcZQx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="01Bo7GbV_EiUJIykcZQx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" target="7x14-aXLsB1EBDYi0nr2-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="-1264" as="sourcePoint" />
+            <mxPoint x="193" y="-1269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-4" edge="1" parent="1" source="7x14-aXLsB1EBDYi0nr2-31" style="endArrow=none;html=1;rounded=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="7x14-aXLsB1EBDYi0nr2-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-274" y="-1130" as="sourcePoint" />
+            <mxPoint x="-276" y="-1055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-5" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="RED DE GESTION&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="179" x="417" y="-1208" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;192.168.1.101/24&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="126" y="-952" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;10.10.1.1/29&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="3" y="-858" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-9" edge="1" parent="1" source="QMujyzllP4tAf6WQ9UCL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.431;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="QMujyzllP4tAf6WQ9UCL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Bo7GbV_EiUJIykcZQx-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;1.1.1.1/24&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="140" x="-109" y="-1026" as="geometry" />
+        </mxCell>
+        <mxCell id="aThD5mufuadb96LuVSf9-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="DHCP&amp;nbsp;&lt;br&gt;ASIGMACION DINAMICA,&lt;div&gt;PERO LA ZONA INSIDE TIENE IP FIJA 192.168.2.6&lt;/div&gt;&lt;div&gt;DHCP RANGO 192.168.2.5 - 192.168.2.255&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-305" y="-360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

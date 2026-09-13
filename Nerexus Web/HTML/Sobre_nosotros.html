@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style_Cabecera_Pie.css">
+    <link rel="stylesheet" href="../CSS/style_Sobre_nosotros.css">
+    <title>Sobre nosotros</title>
+</head>
+<body>
+  <header id="cabecera"> <!-- Es la parte superior de la página-->
+        <div class="cab-izq">
+            <a href="index.html" class="logo-link">
+                <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus">
+            </a>
+            <h1 id="titulo"><a href="index.html">Nerexus</a></h1>
+        </div>
+        <ul class="menu">
+            <li><a href="Sobre_nosotros.html">Sobre nosotros</a></li>
+            <li><a href="Propiedades.html">Propiedades</a></li>
+            <li><a href="Anuncio.html">Anúnciate</a></li>
+            <li><a href="Acceder.html">Acceder</a></li>
+        </ul>
+    </header>
+  <!-- Sección principal -->
+  <section class="sobre"> <!-- Separa secciones -->
+    <div class="contenedor">
+      <h1>Sobre nosotros</h1>
+      <p class="intro">
+        Somos Iván Martín y Rafael Lozano, estudiantes de Grado Medio en Informática que hemos decidido aprovechar este proyecto para dar un paso más allá de lo que vemos en clase. Nos interesa cómo la tecnología puede mejorar servicios tradicionales y, sobre todo, cómo podemos aplicar lo que aprendemos a algo real.
+        Este trabajo nos sirve para crecer profesionalmente, practicar con herramientas web y entender mejor cómo se desarrolla una idea desde cero hasta convertirse en un proyecto funcional.
+      </p>
+      <h1>Que es Nerexus</h1>
+      <p class="intro">
+        Nerexus nace como una propuesta de inmobiliaria online pensada para un público joven y para personas interesadas en invertir en vivienda. La idea es ofrecer una plataforma sencilla, clara y accesible, donde buscar, publicar o gestionar propiedades no resulte complicado.
+        Nuestro objetivo es combinar diseño, tecnología y una experiencia más cercana, adaptada a las necesidades actuales del mercado y a la forma en la que los usuarios interactúan hoy con los servicios digitales.
+      </p>
+      <!-- Valores -->
+      <div class="bloque-info">
+        <div class="valores"> <!-- Crea un contenedor para los tres valores, utilizare flexbox para ponerlos en fila -->
+          <div class="valor"> <!-- Cada valor es una tarjeta individual -->
+            <h3><img src="../IMAGENES/calidad.png" class="icono"> Calidad</h3>
+            <p>Propiedades seleccionadas con cuidado.</p>
+          </div>
+          <div class="valor">
+            <h3><img src="../IMAGENES/confianza.png" class="icono"> Confianza</h3>
+            <p>Transparencia en cada paso.</p>
+          </div>
+          <div class="valor">
+            <h3><img src="../IMAGENES/rapidez.png" class="icono"> Rapidez</h3>
+            <p>Gestión ágil y eficiente.</p>
+          </div>
+        </div>
+        <!-- Tabla -->
+        <div class="datos">
+          <h2>Nuestros Objetivos</h2>
+          <table>
+            <thead> <!-- Agrupa las filas del encabazado de una tabla-->
+              <tr> <!-- Celdas para el encabezado de la tabla-->
+                <th>Concepto</th>
+                <th>Valor</th>
+              </tr>
+            </thead>
+            <tbody> <!-- Contiene las filas del cuerpo de la tabla-->
+              <tr> <!-- Celdas para el cuerpo de la tabla-->
+                <td>Propiedades gestionadas</td>
+                <td>+500</td>
+              </tr>
+              <tr>
+                <td>Clientes satisfechos</td>
+                <td>+300</td>
+              </tr>
+              <tr>
+                <td>Años de experiencia</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>Operaciones cerradas</td>
+                <td>+1.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pie -->
+  <footer id="pie">
+    <div class="pie-arriba">
+      <a href="index.html" id="logo-nerexus-pie">
+        <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus pie">
+      </a>
+      <h1 id="titulo-pie"><a href="index.html">Nerexus</a></h1>
+    </div>
+    <p class="copy">© 2026 Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>

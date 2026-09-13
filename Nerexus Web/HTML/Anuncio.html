@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style_Cabecera_Pie.css">
+    <link rel="stylesheet" href="../CSS/style_Anuncio.css">
+    <title>Pon tu anuncio</title>
+</head>
+<body>
+    <header id="cabecera">
+        <div class="cab-izq">
+            <a href="index.html" class="logo-link">
+                <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus">
+            </a>
+            <h1 id="titulo"><a href="index.html">Nerexus</a></h1>
+        </div>
+        <ul class="menu">
+            <li><a href="Sobre_nosotros.html">Sobre nosotros</a></li>
+            <li><a href="Propiedades.html">Propiedades</a></li>
+            <li><a href="Anuncio.html">Anúnciate</a></li>
+            <li><a href="Acceder.html">Acceder</a></li>
+        </ul>
+    </header>
+
+    <div class="contenedor-anuncio">
+        <h1>Publica tu propiedad</h1>
+        <p class="texto-intro">Rellena este formulario y revisaremos tu anuncio antes de publicarlo.</p>
+
+        <form class="form-anuncio">
+
+            <!-- Datos del propietario -->
+            <label>Tu nombre</label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+
+            <label>Correo electrónico</label>
+            <input type="email" name="email" placeholder="Pon tu correo electronico">
+
+            <!-- Datos de la propiedad -->
+            <label>Tipo de propiedad</label>
+            <select name="tipo">
+                <option value="" disabled selected>Seleccionar...</option>
+                <option value="piso">Piso</option>
+                <option value="casa">Casa</option>
+                <option value="local">Local</option>
+                <option value="garaje">Garaje</option>
+            </select>
+
+            <label>Precio (€)</label>
+            <input type="text" name="precio" placeholder="150.000 €">
+
+            <label>Ubicación</label>
+            <input type="text" name="ubicacion" placeholder="Ciudad, barrio...">
+
+            <label>Descripción</label>
+            <textarea name="descripcion" rows="5" placeholder="Describe la propiedad..."></textarea>
+
+            <label>Fotos (máx. 5)</label>
+            <input type="file" name="fotos" accept="image/*" multiple>
+
+            <button type="submit" class="btn-enviar">Enviar anuncio</button>
+        </form>
+    </div>
+    <!-- Pie -->
+    <footer id="pie">
+        <div class="pie-arriba">
+            <a href="index.html" id="logo-nerexus-pie">
+                <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus pie">
+            </a>
+            <h1 id="titulo-pie"><a href="index.html">Nerexus</a></h1>
+        </div>
+        <p class="copy">© 2026 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

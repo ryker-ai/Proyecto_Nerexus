@@ -1,0 +1,50 @@
+/* Contenedor anuncio */
+.contenedor-anuncio {
+    max-width: 37.5rem;
+    margin: 2.5rem auto;
+    padding: 1.25rem;
+}
+
+.contenedor-anuncio h1 {
+    font-size: 1.875rem;
+    margin-bottom: 0.6rem;
+    color: #F5B027;
+}
+
+.texto-intro {
+    color: #555;
+    margin-bottom: 1.6rem;
+}
+
+.form-anuncio {
+    display: flex;
+    flex-direction: column; /* Coloca todo los imputs en columna */
+    gap: 1rem; /* Espacio entre cada campo */
+}
+
+.form-anuncio input,
+.form-anuncio select,
+.form-anuncio textarea {
+    padding: 0.6rem;
+    border: 0.1rem solid #F5B027;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+/*Boton enviar*/
+.btn-enviar {
+    background: #F5B027;
+    color: #000;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.btn-enviar:hover {
+    background: #d99a1f;
+    transform: scale(1.03);
+}

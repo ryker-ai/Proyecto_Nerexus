@@ -1,0 +1,131 @@
+/* caja del login */
+.contenedor-login {
+    background: rgba(255, 255, 255, 0.05); /* Fondo blanco muy transparente de 5%) para el efecto de cristal oscuro*/
+    width: 20rem; /*Ancho de la caja*/
+    padding: 2.5rem; /*Espacio interior*/
+    border-radius: 1.2rem;
+    backdrop-filter: blur(0.6rem); /* Difumina el fondo detras de la caja */
+    text-align: center; 
+    margin: 3.7rem auto; /* Auto a los lados dentra la caja horizontalmente*/
+    border: 0.1rem solid #F5B027;
+}
+
+/* icono del usuario */
+.icono-usuario img {
+    width: 5.6rem;
+    margin-bottom: 1.25rem; /* Margen abajo del icono para separarlo del formulario*/
+    border-radius: 6.25rem; /* Hace la imagen completamente circular*/
+}
+
+.input input {
+    width: 75%; /* Ocupa el 75% del ancho del contenedor*/
+    padding: 0.7rem 2.5rem; 
+    border: 0.1rem solid #F5B027;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1.8rem;
+    margin-bottom: 1.25rem;
+    outline: none; /* Quita el reborde al hacer clic que viene por defecto */
+    font-size: 0.9rem;
+}
+
+/* opciones del login */
+.opciones {
+    display: flex; /* Colocamos los elementos en fila*/
+    justify-content: space-between; /* Los separo uno en cada extremo*/
+    margin-bottom: 1.25rem;
+    font-size: 0.8rem;
+}
+
+.opciones a {
+    color: #F5B027;
+    text-decoration: none; /*Le quita el subrayado al enlace*/
+}
+
+/* Contenedor para los botones */
+.botones-login {
+    display: flex; /* Activa el flexbox*/
+    flex-direction: column; /* Los botones de colocan uno en cima del otro*/
+    gap: 1.5rem; 
+    width: 100%; 
+    max-width: 21rem; /* Es el ancho maximo, para evitar que se estiren demasiado en pantallas grandes*/
+    margin: 0 auto; /* Centra en contenedor horizontalmente*/
+}
+
+.btn-acceder {
+    background: #F5B027;
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-acceder:hover {
+    background: #d99a1f;
+    transform: scale(1.05);
+}
+
+.btn-registro {
+    background: transparent;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: 0.125rem solid #F5B027;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-registro:hover {
+    background: rgba(35, 34, 33, 0.526);
+    transform: scale(1.05);
+}
+
+/*Responsive*/
+
+@media (max-width: 30rem) { 
+    
+    #cabecera {
+        height: auto;
+        padding: 1rem 1.2rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contenedor-login {
+        width: 85%;
+        max-width: 20rem;
+        padding: 1.5rem;
+        margin: 2rem auto;
+    }
+
+    .icono-usuario img {
+        width: 4.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .caja-input input {
+        width: 85%;
+        padding: 0.6rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .opciones {
+        flex-direction: column;
+        gap: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .botones-login {
+        gap: 0.8rem;
+    }
+
+    .btn-acceder, .btn-registro {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+    }
+}
