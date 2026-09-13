@@ -1,0 +1,51 @@
+/*Cuerpo*/
+#cuerpo {
+    height: 100vh; /*Esto hace que la sección ocupe exactamente el 100% de la altura de la pantalla del usuario*/
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(../IMAGENES/img_portada.png);
+    background-size: cover; /*hace que la imagen de fonde cubra toda la pantalla, aunque tenga que recortarse un poco. Evita que se deforme o se repita.*/
+    background-position: center; /*Centra la imagen de fondo para que siempre se vea equilibrada*/
+    display: flex; /*Combierte el contenedor en un flexbox, lo que permite centrar contenido fácilmente*/
+    justify-content: center; /*Centra el contenido horizontalmente*/
+    align-items: center; /*Centra el contenido verticalmente*/
+}
+
+.contenido-cuerpo {
+    text-align: center; /*Centra el texto dentro del bloque*/
+    padding: 1rem; /*Añade espacio interior alrededor del contenido. Evita que el texto quede pegado a los bordes*/
+    width: 90%; /*Hace que el contenido ocupe el 90% del ancho disponible. Esto evita que el texto se vea demasiado ancho en pantallas grandes*/
+}
+
+.contenido-cuerpo h1 {
+    font-size: 2.8rem; /*Si el usuario aumenta el tamaño de fuente en su navegador, tu web se adaptará automáticamente*/
+    color: #F5B027; /*Es el colo del texto*/
+}
+
+.texto-sec {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+    margin-bottom: 1.5rem; /*Añade espacio debajo del texto para separarlo de los que venga después*/
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 3%; /*Deja un espacio del 3% del ancho todo entre los botones*/
+    margin-top: 1.5rem; /*Añade espacio arriba del bloque para separarlo del texto anterior*/
+}
+
+.btn-navegar {
+    background: #F5B027; /*Color del fondo del boton*/
+    color: #000;
+    padding: 0.8rem 1.6rem; /*Hace que el boton se vea más grande y cómodo*/
+    border-radius: 2rem; /*Redondea las esquinas del boton*/
+    border: #524603 solid 0.1rem;
+    text-decoration: none; /*Quita el subrayado el enlace*/
+    font-size: 1.2rem;
+    font-weight: bold; /*bold: pone el texto en negrita*/
+    transition: 0.2s; /*Hace que los efectos hover sean suaves*/
+}
+
+.btn-navegar:hover {
+    background: #d99a1f;
+    transform: scale(1.03); /*Hace que el boton crezca un 3% al hacer el hover*/
+}

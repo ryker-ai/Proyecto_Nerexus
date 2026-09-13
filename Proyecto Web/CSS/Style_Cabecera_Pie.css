@@ -1,0 +1,84 @@
+/*Estilos generales de la pagina*/
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+}
+
+
+/* Cabecera general */
+#cabecera {
+    height: 6rem; /*Alto*/
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Coloca los elementos uno a la izquierda y otro a la derecha */
+    align-items: center; /* Centra verticalmente el contenido dentro de la cabecera */
+    padding: 0 2rem; /* Añade espacio a los lados */
+    border-bottom: 0.1rem solid #F5B02740; 
+}
+
+.cab-izq { /* Coloca en logo que el titulo en fila y centrados verticalmente */
+    display: flex;
+    align-items: center;
+}
+
+.logo-link img {
+    width: 4.2rem;
+}
+
+#titulo a {
+    color: #F5B027;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 2.3rem;
+}
+
+/* MENÚ */
+.menu {
+    list-style: none; /* Quita los punto de lista */
+    display: flex; /* Coloca los elementos del menú en fila*/
+    gap: 1.2rem; /* Espacio entre cada enlace del menú*/
+    padding: 0; /* Elimina los espacios extra el <ul>*/
+    margin: 0; /* Elimina los espacios extra el <ul>*/
+}
+
+.menu a {
+    color: #F5B027;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.menu a:hover {
+    border-bottom: 0.2rem solid #F5B027;
+}
+
+/* PIE DE PÁGINA */
+#pie {
+    background: #0a0a0a;
+    text-align: center; /* Centra todo el texto dentro del pie */
+    padding: 1.2rem 0; /* Espacio arriba y abajo del pie */
+    border-top: 0.1rem solid #F5B02740;
+}
+
+.pie-arriba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+#logo-nerexus-pie img {
+    width: 4rem;
+}
+
+#titulo-pie a {
+    color: #F5B027;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.copy {
+    color: #cfcfcf;
+    font-size: 0.85rem;
+}
+

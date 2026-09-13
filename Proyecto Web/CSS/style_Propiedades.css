@@ -1,0 +1,159 @@
+/*Contenedor general*/
+.contenedor-pagina {
+    display: flex; /* Activamos flexbox para poder poner los filtros a la izquierda y las propiedades a la derecha */
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/*Filtros*/
+.filtros {
+    width: 22%;
+    background: #111;
+    padding: 2rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    height: 45rem;
+    border: 0.1rem solid #F5B027;
+}
+
+.filtros h2 {
+    color: #F5B027;
+    margin-bottom: 1rem;
+}
+
+.filtros label {
+    display: block; /* Hace que cada label ocupe una linea completa */
+    margin: 0.6rem 0 0.3rem; /* Margenes arriba y abajo para separa los input */
+}
+
+.filtros input[type="text"]/* Esto coje los input de tipo texto */,
+.filtros select {
+    width: 90%;
+    padding: 0.6rem;
+    border: 0.1rem solid #F5B027;
+    background: #000;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+/*Botones filtros*/
+.btn-formulario {
+    margin-top: 1.5rem;
+    display: flex; /* Activamos flexbox para los botones en fila */
+    justify-content: space-between; /* Separamos cada uno a cada extremo */
+    
+}
+
+.btn-enviar {
+    background: #F5B027;
+    color: #000;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.2s;
+}
+
+.btn-resetear {
+    background: transparent;
+    border: 0.125rem solid #F5B027;
+    color: #F5B027;
+    padding: 0.7rem 1.2rem;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.btn-enviar:hover {
+    background: #d99a1f;
+    transform: scale(1.05);
+}
+
+.btn-resetear:hover {
+    background: #1c1c1a;
+    transform: scale(1.05);
+}
+
+
+/*Listado tarjetas*/
+.listado-propiedades {
+    width: 75%;
+    margin: 0rem 1rem 1rem 1rem;
+    display: grid; /* Activamos el CSS Grid para poder colocar bien las tarjetas */
+    grid-template-columns: repeat(2, 1fr);/* Crear 2 columnas y iguales, cada tarjeta ocupa una columna */
+    gap: 1.5rem; /* Espacio entre trajetas*/
+}
+
+/*Tarjetas*/
+.tarjeta-propiedad {
+    background: #111;
+    border: 0.125rem solid #F5B027;
+    border-radius: 0.8rem;
+    padding: 1rem;
+}
+
+.imagen-fija {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover; /* Recorta la imagen para que no se deforme */
+    border-radius: 0.5rem;
+}
+
+.tarjeta-propiedad h3 {
+    color: #F5B027;
+    margin-top: 0.7rem;
+}
+
+.ubicacion {
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+
+.zona {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.descripcion {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+}
+
+/*Botones tarjetas*/
+.acciones {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.btn-contactar,
+.btn-aviso {
+    flex: 1; /* Ambos botones ocupan el mismo ancho entro del contenedor*/
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    text-align: center; /* Centra el texto */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.btn-contactar {
+    background: #F5B027;
+    color: #000;
+    
+}
+
+.btn-aviso {
+    background: transparent;
+    border: 0.125rem solid #F5B027;
+    color: #F5B027;
+}
+
+.btn-contactar:hover {
+    background: #d99a1f;
+    transform: scale(1.05);
+}
+
+.btn-aviso:hover {
+    background: #1c1c1a;
+    transform: scale(1.05);
+}
+

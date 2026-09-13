@@ -1,0 +1,74 @@
+/* Sección sobre nosostros */
+.sobre {
+    padding: 4.3rem 1.25rem;
+}
+
+.contenedor {
+    max-width: 68.75rem; /* Ancho máximo de la sección*/
+    margin: auto; /* Centra el contenedor */
+    text-align: center; /* Centra el texot dentro */
+}
+
+.contenedor h1 {
+    font-size: 2.5rem; /* Titulo grande */
+    margin-bottom: 1.25rem; /* Espacio deba del título */
+    color: #F5B027;
+}
+
+.intro {
+    color: #ccc;
+    max-width: 37.5rem;
+    margin: 0 auto 3.1rem; /* El auto lo deja centrado 0 es para que no tengo margen arriba solo abajo */
+}
+
+/* VALORES */
+.valores {
+    display: flex; /* Activa flexbox */
+    justify-content: space-between; /* Coloca los valores en fila */
+    gap: 1.25rem;
+    margin-bottom: 3.75rem; /* Añade espacio debajo de todo la sección */
+}
+
+.valor {
+    flex: 2; /* Cada tarjeta ocupa el mismo ancho */
+    background: #111; 
+    padding: 1.25rem;
+    border-radius: 0.6rem;
+}
+
+.valor h3 {
+    color: #F5B027;
+}
+
+.icono {
+    width: 1.75rem;
+    vertical-align: middle; /* Icono alineado verticalmente con el texto*/
+    margin-right: 0.37rem;
+}
+
+/* TABLA */
+.datos h2 {
+    margin-bottom: 1.25rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre celdas y hace que los bordes unidos*/
+    background: #111;
+    border-radius: 0.6rem;
+    overflow: hidden; /* Hace que el borde redondeado funcione también en las filas internas y Evita que sobresalgan esquinas cuadradas*/
+}
+
+th, td {
+    padding: 0.9rem;
+    text-align: left; /* Alinea el contenido hacia la izquierda */
+}
+
+th {
+    background: #F5B027;
+    color: #000;
+}
+
+tr:nth-child(even) { /* Aplica un color diferente en las filas pares*/
+    background: #1a1a1a; /* Color para las filas */
+}

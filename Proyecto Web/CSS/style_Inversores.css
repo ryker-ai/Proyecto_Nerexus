@@ -1,0 +1,110 @@
+/* Cuerpo principal */
+.contenedor-inversores {
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.titulo-inv {
+    color: #F5B027;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.06rem; /* Espacio entre letras */
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: #dcdcdc;
+    margin-bottom: 2rem;
+    line-height: 1.7rem; /* Espacio entre lineas */
+    max-width: 46.8rem;
+    margin: 0 auto 2rem auto;
+}
+
+/* Botón principal */
+.btn-ver-propiedades {
+    display: inline-block; /* Permite aplicar padding y márgenes como si fuera un boton real */
+    background: #F5B027;
+    color: #000;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    transition: 0.2s;
+}
+
+.btn-ver-propiedades:hover {
+    background: #d99a1f;
+    transform: scale(1.05);
+}
+
+/* Lista */
+.bloque-lista {
+    margin-bottom: 3rem;
+}
+
+.bloque-lista h3 {
+    color: #F5B027;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lista-desordenada {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-desordenada li {
+    margin: 0.7rem 0;
+    font-size: 1.1rem;
+}
+
+.lista-desordenada li::before {
+    content: "• "; /* Añade un punto personalizado antes de cada elemento*/
+    color: #F5B027;
+    font-size: 1.4rem;
+}
+
+.lista-ordenada {
+    list-style-position: inside; /* Los numero aparecen dentro del contenido no fuera */
+    padding: 0;
+}
+
+.lista-ordenada li {
+    margin: 0.7rem 0;
+    font-size: 1.1rem;
+}
+
+/* BLOQUE EXTRA */
+.consejo h3 {
+    color: #F5B027;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.consejo p {
+    font-size: 1.1rem;
+    max-width: 43.75rem;
+    margin: 0 auto;
+    line-height: 1.6rem;
+}
+
+.btn-saber-mas {
+    display: inline-block;
+    background: #F5B027;
+    color: #000;
+    padding: 0.75rem 1.56rem;
+    border-radius: 1.87rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 1.87rem auto 1.25rem auto;
+}
+
+.btn-saber-mas:hover {
+    background: #d99a1f;
+    transform: scale(1.03);
+}

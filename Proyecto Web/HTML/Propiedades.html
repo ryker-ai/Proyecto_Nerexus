@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style_Cabecera_Pie.css">
+    <link rel="stylesheet" href="../CSS/style_Propiedades.css">
+    <title>Propiedades</title>
+</head>
+<body>
+    <header id="cabecera">
+        <div class="cab-izq">
+            <a href="index.html" class="logo-link">
+                <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus">
+            </a>
+            <h1 id="titulo"><a href="index.html">Nerexus</a></h1>
+        </div>
+        <ul class="menu">
+            <li><a href="Sobre_nosotros.html">Sobre nosotros</a></li>
+            <li><a href="Propiedades.html">Propiedades</a></li>
+            <li><a href="Anuncio.html">Anúnciate</a></li>
+            <li><a href="Acceder.html">Acceder</a></li>
+        </ul>
+    </header>
+    <!-- Contenedor general-->
+    <div class="contenedor-pagina">
+        <!-- Filtros de búsqueda -->
+        <div class="filtros">
+            <h2>Filtros de búsqueda</h2>
+            <form>
+                <!-- Input de ubicación -->
+                <label for="ubicacion">Ubicación</label>
+                <input type="text" id="ubicacion" placeholder="Ej: Alicante, Madrid...">
+                <!-- Select de tipo -->
+                <label for="tipo">Tipo de inmueble</label>
+                <select id="tipo">
+                    <option value="" disabled selected>Seleccionar...</option>
+                    <option value="terreno">Terreno</option>
+                    <option value="casa">Casa</option>
+                    <option value="piso">Piso</option>
+                    <option value="local">Local</option>
+                </select>
+                <!-- Radios -->
+                <p>Operación</p>
+                <label><input type="radio" name="operacion"> Compra</label>
+                <label><input type="radio" name="operacion"> Alquiler</label>
+                <label><input type="radio" name="operacion"> Obra nueva</label>
+                <!-- Precios -->
+                <label for="precio-min">Precio mínimo</label>
+                <input type="text" id="precio-min" placeholder="€">
+                <label for="precio-max">Precio máximo</label>
+                <input type="text" id="precio-max" placeholder="€">
+                <!-- Checkboxes -->
+                <p>Características</p>
+                <label><input type="checkbox"> Trastero</label>
+                <label><input type="checkbox"> Garaje</label>
+                <label><input type="checkbox"> Ascensor</label>
+                <label><input type="checkbox"> Piscina</label>
+                <!-- Botones -->
+                <div class="btn-formulario">
+                    <button type="submit" class="btn-enviar">Buscar</button>
+                    <button type="reset" class="btn-resetear">Restablecer</button>
+                </div>
+            </form>
+        </div>
+        <!-- Listado de propiedades-->
+        <div class="listado-propiedades">
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta-propiedad">
+                <img src="../IMAGENES/propiedad_1.jpg" alt="Loft en Málaga" class="imagen-fija">
+
+                <h3>550.000 €</h3>
+                <p class="ubicacion">Loft en Málaga</p>
+                <p class="zona">C. de la Bulerías, Málaga</p>
+                <p class="descripcion">
+                    Piso con una reforma integral. Es muy luminoso, con techos altos y un estilo acogedor. Salón y cocina integrados, dando amplitud, y listo para entrar a vivir.
+                </p>
+                <div class="acciones">
+                    <a class="btn-contactar" href="Mantenimiento.html">Contactar</a>
+                    <a class="btn-aviso" href="Acceder.html">Avísame si baja</a>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta-propiedad">
+                <img src="../IMAGENES/propiedad_2.jpg" alt="Casa en Galicia" class="imagen-fija">
+
+                <h3>140.000 €</h3>
+                <p class="ubicacion">Casa con porche y buhardilla en Galicia</p>
+                <p class="zona">Av. de Vilagarcía, Cambados</p>
+                <p class="descripcion">
+                    Ideal para reformar y poner a tu gusto. Casa independiente, rústica y en una zona tranquila, pero cerca del pueblo. Perfecta si buscas algo con encanto y jardín.
+                </p>
+                <div class="acciones">
+                    <a class="btn-contactar" href="Mantenimiento.html">Contactar</a>
+                    <a class="btn-aviso" href="Acceder.html">Avísame si baja</a>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta-propiedad">
+                <img src="../IMAGENES/propiedad_3.jpg" alt="Terreno en Vistahermosa" class="imagen-fija">
+
+                <h3>1.000.000 €</h3>
+                <p class="ubicacion">Piso moderno con chimenea en Andorra</p>
+                <p class="zona">Av. de les Nacions Unides, Andorra</p>
+                <p class="descripcion">
+                    Si buscas un sitio con estilo y que sea acogedor, este piso es una pasada. Tiene un salón de diseño con chimenea abierta, mucha luz y unos acabados de primera. Es perfecto para relajarse después de un largo día.
+                </p>
+                <div class="acciones">
+                    <a class="btn-contactar" href="Mantenimiento.html">Contactar</a>
+                    <a class="btn-aviso" href="Acceder.html">Avísame si baja</a>
+                </div>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta-propiedad">
+                <img src="../IMAGENES/propiedad_4.jpg" alt="Piso en Madrid" class="imagen-fija">
+                <h3>280.000 €</h3>
+                <p class="ubicacion">Piso en Madrid</p>
+                <p class="zona">Av. de la Constitución, Móstoles</p>
+                <p class="descripcion">
+                     Piso listo para entrar a vivir. Es súper luminoso, con una distribución muy cómoda y un salón ideal para desconectar. Tiene un toque moderno pero muy cálido. Esta orientado especialmente a parejas o jovenes. 
+                </p>
+                <div class="acciones">
+                    <a class="btn-contactar" href="Mantenimiento.html">Contactar</a>
+                    <a class="btn-aviso" href="Acceder.html">Avísame si baja</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Pie de página -->
+    <footer id="pie">
+        <div class="pie-arriba">
+            <a href="index.html" id="logo-nerexus-pie">
+                <img src="../IMAGENES/Logo_Nerexus.png" alt="logo nerexus pie">
+            </a>
+            <h1 id="titulo-pie"><a href="index.html">Nerexus</a></h1>
+        </div>
+        <p class="copy">© 2026 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
+
